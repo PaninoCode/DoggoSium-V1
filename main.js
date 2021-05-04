@@ -128,6 +128,12 @@ client.on('message', message => {
 						connection.disconnect();
 						//Una volta che la riproduzione di tutto è finita imposta la variabile su falso.
 						lavorando = false;
+						/*dovrebbe eliminare i file
+						var myObject;
+        					myObject = new ActiveXObject("Scripting.FileSystemObject");
+        					var f = myObject.GetFile(id);
+        					f.Delete();
+						*/
 					});
 				});
 
