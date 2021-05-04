@@ -125,15 +125,14 @@ client.on('message', message => {
 				
 					dispatcher.on('finish', () => {
 						console.log(id + ' - riproduzione terminata');
-						connection.disconnect();
+						connection.disconnect();						
+						//elimina il file audio che viene creato e riprodotto per non occupare memoria
+						fs.unlink(id,(err) => {
+							if(err) throw err;
+							console.log(id + ' was deleted');
+						});
 						//Una volta che la riproduzione di tutto è finita imposta la variabile su falso.
 						lavorando = false;
-						/*dovrebbe eliminare i file
-						var myObject;
-        					myObject = new ActiveXObject("Scripting.FileSystemObject");
-        					var f = myObject.GetFile(id);
-        					f.Delete();
-						*/
 					});
 				});
 
