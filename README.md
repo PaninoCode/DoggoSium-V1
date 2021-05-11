@@ -1,6 +1,6 @@
 ## DoggoSium
 
-_Codice sorgente del bot discord per il server Don't Think Just Play!_
+_Codice sorgente del bot discord per il server [Don't Think Just Play](https://discord.gg/ETddCnuEgZ)!_
 
 Questo bot semplicemente legge i messaggi scritti dagli utenti in un canale vocale
 
