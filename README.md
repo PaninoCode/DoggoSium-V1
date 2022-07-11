@@ -1,6 +1,8 @@
 ## DoggoSium
 
-> ⚠️ Questa versione di DoggoSium èobsoleta e presenta dei problemi di sicurezza.
+⚠️ Questa versione di DoggoSium èobsoleta e presenta dei problemi di sicurezza.
+
+La nuova repository è [alex65ferrari/SiumBot](https://github.com/alex65ferrari/SiumBot)
 
 ---
 
