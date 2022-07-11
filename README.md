@@ -1,6 +1,10 @@
 ## DoggoSium
 
-_Codice sorgente del bot discord per il server [Don't Think Just Play](https://discord.gg/ETddCnuEgZ)!_
+> ⚠️ Questa versione di DoggoSium èobsoleta e presenta dei problemi di sicurezza.
+
+---
+
+_Codice sorgente del bot discord per il server Don't Think Just Play!_
 
 Questo bot semplicemente legge i messaggi scritti dagli utenti in un canale vocale
 
